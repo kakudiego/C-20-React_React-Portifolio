@@ -4,12 +4,16 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 function Nav(props) {
   const {
     categories = [],
+    aboutSelected,
+    setAboutSelected,
     setCurrentCategory,
     contactSelected,
     currentCategory,
     setContactSelected,
     resumeSelected,
     setResumeSelected,
+    portfolioSelected,
+    setPortfolioSelected,
   } = props;
 
   useEffect(() => {
@@ -33,7 +37,7 @@ function Nav(props) {
           </li>
           {categories.map((category) => (
             <li
-              className={`mx-1 ${currentCategory.name === category.name && !contactSelected && 'navActive'
+              className={`mx-1 ${currentCategory.name === category.name && !aboutSelected && !portfolioSelected && !contactSelected && !resumeSelected && 'navActive'
                 }`}
               key={category.name}
             >
@@ -47,6 +51,12 @@ function Nav(props) {
               </span>
             </li>
           ))}
+          {/* <li className={`mx-2 ${aboutSelected && 'navActive'}`}>
+            <span onClick={() => setAboutSelected(true)}>About Me</span>
+          </li> */}
+          <li className={`mx-2 ${portfolioSelected && 'navActive'}`}>
+            <span onClick={() => setPortfolioSelected(true)}>Portfolio</span>
+          </li>
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>
             <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>

@@ -1,12 +1,15 @@
 import React from 'react';
-import coverImage from '../../assets/cover/cover-image.jpg';
 
-function About() {
+function Resume() {
   return (
     <section className="my-5">
-      <h1 id="about">Who am I?</h1>
-      <img src={coverImage} className="my-2" style={{ width: "50%" }} alt="cover" />
+      <h1 id="about">Resume</h1>
       <div className="my-2">
+        <a href='#' target="_blank" rel="noreferrer noopener">
+          <i className='fab fa-twitter'>
+            <span style={{ marginLeft: '10px' }}>Download Resume</span>
+          </i>
+        </a>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
           condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
@@ -21,4 +24,4 @@ function About() {
   );
 }
 
-export default About;
+export default Resume;

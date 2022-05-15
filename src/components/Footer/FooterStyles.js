@@ -1,15 +1,12 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-  padding: 80px 60px;
-  background: black; 
+  padding: 10px;
+  background: #181818; 
   position: relative; 
   bottom: 0;
   width: 100%;
-
-  @media (max-width: 1000px) {
-    padding: 70px 30px;
-  }
+  top: 40vh;
 `;
 
 export const Container = styled.div`
@@ -19,6 +16,7 @@ export const Container = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   /* background: red; */
+
 `;
 
 export const Column = styled.div`

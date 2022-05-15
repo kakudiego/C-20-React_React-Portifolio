@@ -2,49 +2,37 @@ import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
-  const {
-    categories = [],
-    aboutSelected,
-    setAboutSelected,
-    setCurrentCategory,
-    contactSelected,
-    currentCategory,
-    setContactSelected,
-    resumeSelected,
-    setResumeSelected,
-    portfolioSelected,
-    setPortfolioSelected,
-  } = props;
+  const { categories = [], aboutSelected, setAboutSelected, setCurrentCategory, contactSelected, currentCategory, setContactSelected, resumeSelected, setResumeSelected, portfolioSelected, setPortfolioSelected } = props;
 
   useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
-  }, [currentCategory]);
+    document.title = "Diego Kaku's Portfolio";
+  }, []);
 
   return (
-    <header className="flex-row px-1">
+    <header className='flex-row px-1'>
       <h2>
-        <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> #PHOTO HERE# </span> Diego Kaku
+        <a data-testid='link' href='/'>
+          Diego Kaku
         </a>
         <p>Full Stack Web Developer</p>
       </h2>
       <nav>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+        <ul className='flex-row'>
+          {/* <li className='mx-2'>
+            <a data-testid='about' href='#about' onClick={() => setContactSelected(false)}>
               About me
             </a>
-          </li>
+          </li> */}
           {categories.map((category) => (
-            <li
-              className={`mx-1 ${currentCategory.name === category.name && !aboutSelected && !portfolioSelected && !contactSelected && !resumeSelected && 'navActive'
-                }`}
-              key={category.name}
-            >
+            <li className={`mx-1 ${currentCategory.name === category.name && !aboutSelected && !portfolioSelected && !contactSelected && !resumeSelected && 'navActive'}`} key={category.name}>
               <span
                 onClick={() => {
                   setCurrentCategory(category);
                   setContactSelected(false);
+                  setAboutSelected(false);
+                  setPortfolioSelected(false);
+                  setResumeSelected(false);
+
                 }}
               >
                 {capitalizeFirstLetter(category.name)}

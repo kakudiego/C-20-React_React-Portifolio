@@ -9,28 +9,28 @@ const Footer = () => {
         <Row>
           <Column>
             <FooterLink href='https://github.com/kakudiego' target="_blank" rel="noreferrer noopener">
-              <i className='fab fa-twitter'>
+              <i className=''>
                 <span style={{ marginLeft: '10px' }}>GitHub</span>
               </i>
             </FooterLink>
           </Column>
           <Column>
             <FooterLink href='https://github.com/kakudiego' target="_blank" rel="noreferrer noopener">
-              <i className='fab fa-twitter'>
+              <i className=''>
                 <span style={{ marginLeft: '10px' }}>LinkedIn</span>
               </i>
             </FooterLink>
           </Column>
           <Column>
             <FooterLink href='https://twitter.com/kakudiego' target="_blank" rel="noreferrer noopener">
-              <i className='fab fa-twitter'>
+              <i className=''>
                 <span style={{ marginLeft: '10px' }}>Twitter</span>
               </i>
             </FooterLink>
           </Column>
           <Column>
             <FooterLink href='https://www.instagram.com/kakudiego' target="_blank" rel="noreferrer noopener">
-              <i className='fab fa-twitter'>
+              <i className=''>
                 <span style={{ marginLeft: '10px' }}>Instagram</span>
               </i>
             </FooterLink>

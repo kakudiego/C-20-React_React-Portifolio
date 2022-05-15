@@ -41,11 +41,6 @@ export const FooterLink = styled.a`
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
-  
-  &:visited {
-    color: lime;
-    text-decoration: none;
-  }
 
   &:hover {
     color: yellow;

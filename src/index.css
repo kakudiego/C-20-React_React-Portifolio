@@ -160,6 +160,10 @@ nav li {
   cursor: pointer;
 }
 
+nav li:hover {
+  color: yellow;
+}
+
 textarea {
   width: 600px;
   height: 120px;

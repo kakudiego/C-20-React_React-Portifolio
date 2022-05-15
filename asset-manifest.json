@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kakudiego/C-20-React_React-Portifolio/static/css/main.70d39d33.chunk.css",
+    "main.js": "/kakudiego/C-20-React_React-Portifolio/static/js/main.b8a8fe0a.chunk.js",
+    "main.js.map": "/kakudiego/C-20-React_React-Portifolio/static/js/main.b8a8fe0a.chunk.js.map",
+    "runtime-main.js": "/kakudiego/C-20-React_React-Portifolio/static/js/runtime-main.deb6d4c9.js",
+    "runtime-main.js.map": "/kakudiego/C-20-React_React-Portifolio/static/js/runtime-main.deb6d4c9.js.map",
+    "static/js/2.c4cd8596.chunk.js": "/kakudiego/C-20-React_React-Portifolio/static/js/2.c4cd8596.chunk.js",
+    "static/js/2.c4cd8596.chunk.js.map": "/kakudiego/C-20-React_React-Portifolio/static/js/2.c4cd8596.chunk.js.map",
+    "static/js/3.30952d89.chunk.js": "/kakudiego/C-20-React_React-Portifolio/static/js/3.30952d89.chunk.js",
+    "static/js/3.30952d89.chunk.js.map": "/kakudiego/C-20-React_React-Portifolio/static/js/3.30952d89.chunk.js.map",
+    "index.html": "/kakudiego/C-20-React_React-Portifolio/index.html",
+    "static/css/main.70d39d33.chunk.css.map": "/kakudiego/C-20-React_React-Portifolio/static/css/main.70d39d33.chunk.css.map",
+    "static/js/2.c4cd8596.chunk.js.LICENSE.txt": "/kakudiego/C-20-React_React-Portifolio/static/js/2.c4cd8596.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.deb6d4c9.js",
+    "static/js/2.c4cd8596.chunk.js",
+    "static/css/main.70d39d33.chunk.css",
+    "static/js/main.b8a8fe0a.chunk.js"
+  ]
+}

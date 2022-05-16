@@ -4,8 +4,9 @@
 
 ## Description
 
-    Build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. This application won’t be deployed and will be tested locally with Insomnia.
-
+Basic Portfolio, using React.
+Single-page application portfolio for a web developer.
+    
 # Table of Contents
 
 - [Video Demonstration](#video-demonstration)
@@ -45,6 +46,6 @@ Contact below
 
 ![Profile Image](https://github.com/kakudiego.png?size=50)
 
-Project in GitHub: https://github.com/kakudiego/C-18-NoSQL_Social-Network-API
+Project in GitHub: https://github.com/kakudiego/C-20-React_React-Portifolio
 
 If you have any questions, contact me at diegokaku@gmail.com.

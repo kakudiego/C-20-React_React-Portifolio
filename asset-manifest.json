@@ -1,13 +1,20 @@
 {
   "files": {
     "main.css": "/C-20-React_React-Portifolio/static/css/main.e7720ab7.css",
-    "main.js": "/C-20-React_React-Portifolio/static/js/main.966b728f.js",
+    "main.js": "/C-20-React_React-Portifolio/static/js/main.8b9275f1.js",
+    "static/media/resume.png": "/C-20-React_React-Portifolio/static/media/resume.ec70621d0a5d6d930967.png",
+    "static/media/readme-generator.png": "/C-20-React_React-Portifolio/static/media/readme-generator.6a3ba2b39d188bd6618f.png",
+    "static/media/weather-dashboard.png": "/C-20-React_React-Portifolio/static/media/weather-dashboard.14f90ca97f3395ecec7f.png",
+    "static/media/work-day-scheduler.png": "/C-20-React_React-Portifolio/static/media/work-day-scheduler.d59c3e5c947262ae122b.png",
+    "static/media/budget-tracker.png": "/C-20-React_React-Portifolio/static/media/budget-tracker.8639f3275b2e62a57c1b.png",
+    "static/media/password-generator.png": "/C-20-React_React-Portifolio/static/media/password-generator.16278d411f450858a94a.png",
+    "static/media/note-taker.png": "/C-20-React_React-Portifolio/static/media/note-taker.280680b7c30251976468.png",
     "index.html": "/C-20-React_React-Portifolio/index.html",
     "main.e7720ab7.css.map": "/C-20-React_React-Portifolio/static/css/main.e7720ab7.css.map",
-    "main.966b728f.js.map": "/C-20-React_React-Portifolio/static/js/main.966b728f.js.map"
+    "main.8b9275f1.js.map": "/C-20-React_React-Portifolio/static/js/main.8b9275f1.js.map"
   },
   "entrypoints": [
     "static/css/main.e7720ab7.css",
-    "static/js/main.966b728f.js"
+    "static/js/main.8b9275f1.js"
   ]
 }

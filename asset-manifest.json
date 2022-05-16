@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/C-20-React_React-Portifolio/static/css/main.e7720ab7.css",
-    "main.js": "/C-20-React_React-Portifolio/static/js/main.8b9275f1.js",
+    "main.js": "/C-20-React_React-Portifolio/static/js/main.93e8140d.js",
     "static/media/resume.png": "/C-20-React_React-Portifolio/static/media/resume.ec70621d0a5d6d930967.png",
+    "static/media/photo.jpg": "/C-20-React_React-Portifolio/static/media/photo.740928e54f677c1029a2.jpg",
     "static/media/readme-generator.png": "/C-20-React_React-Portifolio/static/media/readme-generator.6a3ba2b39d188bd6618f.png",
     "static/media/weather-dashboard.png": "/C-20-React_React-Portifolio/static/media/weather-dashboard.14f90ca97f3395ecec7f.png",
     "static/media/work-day-scheduler.png": "/C-20-React_React-Portifolio/static/media/work-day-scheduler.d59c3e5c947262ae122b.png",
@@ -11,10 +12,10 @@
     "static/media/note-taker.png": "/C-20-React_React-Portifolio/static/media/note-taker.280680b7c30251976468.png",
     "index.html": "/C-20-React_React-Portifolio/index.html",
     "main.e7720ab7.css.map": "/C-20-React_React-Portifolio/static/css/main.e7720ab7.css.map",
-    "main.8b9275f1.js.map": "/C-20-React_React-Portifolio/static/js/main.8b9275f1.js.map"
+    "main.93e8140d.js.map": "/C-20-React_React-Portifolio/static/js/main.93e8140d.js.map"
   },
   "entrypoints": [
     "static/css/main.e7720ab7.css",
-    "static/js/main.8b9275f1.js"
+    "static/js/main.93e8140d.js"
   ]
 }

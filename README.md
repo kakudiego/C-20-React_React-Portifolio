@@ -9,18 +9,16 @@ Single-page application portfolio for a web developer.
     
 # Table of Contents
 
-- [Video Demonstration](#video-demonstration)
+- [Demonstration](#demonstration)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributors](#contributors)
 - [Contact](#contact)
 
-## Video Demonstration
-
-
-
-- alternative link to the video demonstration: 
+## Demonstration
+![Screenshot 2022-05-21 181449](https://user-images.githubusercontent.com/94471049/169671898-9af8780d-c5b6-4915-af1f-aac1b33e7a4e.png)
+![Screenshot 2022-05-21 181536](https://user-images.githubusercontent.com/94471049/169671900-d9dc99e3-8a1a-488d-83e0-9b4033e85ec8.png)
 
 ## Installation
 

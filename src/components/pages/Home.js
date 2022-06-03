@@ -3,7 +3,7 @@ import photo from '../../images/photo.jpg';
 
 function Home() {
   return (
-    <section style={{ display: 'flex', flexWrap: 'wrap' }}>
+    <section style={{ display: 'flex', flexWrap: 'wrap', padding: '10px' }}>
       <div className="my-2">
         <h1 id="about">About Me:</h1>
         <img style={{ width: '20%', margin: '10px' }} src={photo} alt="profile shot" />

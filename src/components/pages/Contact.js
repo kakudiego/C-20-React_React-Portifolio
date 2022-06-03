@@ -37,7 +37,7 @@ function Contact() {
   };
 
   return (
-    <section>
+    <section style={{ display: 'flex', flexWrap: 'wrap', padding: '10px' }}>
       <h1 data-testid="h1tag">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>

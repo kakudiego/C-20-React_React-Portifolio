@@ -4,7 +4,7 @@ import React from 'react';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className='nav' style={{ cursor: 'pointer', backgroundColor: '#181818', alignItems: 'center' }}>
+    <ul className='nav' style={{ cursor: 'pointer', backgroundColor: '#181818', alignItems: 'center', padding: '10px' }}>
       <li className=''>
         <h3 style={{ color: 'white' }} href='#home' onClick={() => handlePageChange('Home')}>
           Diego Kaku

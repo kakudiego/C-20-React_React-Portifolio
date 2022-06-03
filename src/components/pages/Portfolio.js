@@ -5,11 +5,20 @@ import weatherDashboard from '../../images/weather-dashboard.png';
 import readmeGenerator from '../../images/readme-generator.png';
 import noteTaker from '../../images/note-taker.png';
 import budgetTracker from '../../images/budget-tracker.png';
+import flavoredText from '../../images/FlavoredText.png';
 
 
 function Portfolio() {
   return (
     <section className="my-5" style={{ display: 'flex', flexFlow: 'wrap', justifyContent: 'space-evenly' }}>
+      <div className="my-2">
+        <a style={{ textDecoration: 'none' }} href='https://github.com/Erock42/FlavoredText' target="_blank" rel="noreferrer noopener">
+          <i className='fab fa-twitter'>
+            <h4 style={{ marginLeft: '15px', color: 'white' }}>FlavoredText</h4>
+          </i>
+          <img src={flavoredText} alt='flavoredText' />
+        </a>
+      </div>
       <div className="my-2">
         <a style={{ textDecoration: 'none' }} href='https://github.com/kakudiego/C-3-JavaScript_Basic-Password-Generator' target="_blank" rel="noreferrer noopener">
           <i className='fab fa-twitter'>

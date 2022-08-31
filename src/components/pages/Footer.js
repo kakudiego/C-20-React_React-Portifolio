@@ -28,13 +28,13 @@ const Footer = () => {
               </i>
             </FooterLink>
           </Column>
-          <Column>
+          {/* <Column>
             <FooterLink href='https://www.instagram.com/kakudiego' target="_blank" rel="noreferrer noopener">
               <i className=''>
                 <span style={{ marginLeft: '10px' }}>Instagram</span>
               </i>
             </FooterLink>
-          </Column>
+          </Column> */}
         </Row>
       </Container>
     </Box>

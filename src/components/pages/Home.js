@@ -8,16 +8,16 @@ function Home() {
         <h1 id="about">About Me:</h1>
         <img style={{ width: '20%', margin: '10px' }} src={photo} alt="profile shot" />
         <h5>
-          Hi, my name is Diego Kaku, and I am a full stack web developer student at the University of Minnesota Bootcamp.
+          Hi, my name is Diego Kaku, and I am a Full Stack Web developer with MD and Nurse degree,
         </h5>
         <h5>
-          I am from Brazil, a small town called Dourados in the state of Mato Grosso do Sul, and I am currently living in Saint Paul, Minnesota.
+          recently graduated from the University of Minnesota BootCamp with a certificate in Full Stack Web Development,
         </h5>
         <h5>
-          I speak Portuguese, Spanish and English (always learning)...
+          and has since developed expertise in JavaScript, HTML, CSS, React.js, responsive web design with a focus on mobile-first.
         </h5>
         <h5>
-          I have a Nursing degree from the Universidade Estadual do Oeste do Parana (Brazil), and I have a MD degree from the Universidad Privada Franz Tamayo (Bolivia).
+          I enjoy teamwork, being responsible, respectful, and trustworthy demonstrated during my BootCamp.
         </h5>
       </div>
     </section>

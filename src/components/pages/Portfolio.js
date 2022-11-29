@@ -31,6 +31,11 @@ function Portfolio() {
           </i>
           <img src={passwordGenerator} alt='password generator' />
         </a>
+        <a style={{ textDecoration: 'none' }} href='https://kakudiego.github.io/C-3-JavaScript_Basic-Password-Generator/' target="_blank" rel="noreferrer noopener">
+          <i className='fab fa-twitter'>
+            <h5 style={{ marginLeft: '15px', color: 'white' }}>Deployed</h5>
+          </i>
+        </a>
       </div>
       <div className="my-2">
         <a style={{ textDecoration: 'none' }} href='https://github.com/kakudiego/C-5-Third-Party-APIs_Work-Day-Scheduler' target="_blank" rel="noreferrer noopener">
@@ -39,6 +44,11 @@ function Portfolio() {
           </i>
           <img src={workDayScheduler} alt='Work Day Scheduler' />
         </a>
+        <a style={{ textDecoration: 'none' }} href='https://kakudiego.github.io/C-5-Third-Party-APIs_Work-Day-Scheduler/' target="_blank" rel="noreferrer noopener">
+          <i className='fab fa-twitter'>
+            <h5 style={{ marginLeft: '15px', color: 'white' }}>Deployed</h5>
+          </i>
+        </a>
       </div>
       <div className="my-2">
         <a style={{ textDecoration: 'none' }} href='https://github.com/kakudiego/C-6-Server-Side-APIs_Weather-Dashboard' target="_blank" rel="noreferrer noopener">
@@ -46,6 +56,11 @@ function Portfolio() {
             <h4 style={{ marginLeft: '15px', color: 'white' }}>Weather-Dashboard</h4>
           </i>
           <img src={weatherDashboard} alt='Weather-Dashboard' />
+        </a>
+        <a style={{ textDecoration: 'none' }} href='https://kakudiego.github.io/C-6-Server-Side-APIs_Weather-Dashboard/' target="_blank" rel="noreferrer noopener">
+          <i className='fab fa-twitter'>
+            <h5 style={{ marginLeft: '15px', color: 'white' }}>Deployed</h5>
+          </i>
         </a>
       </div>
       <div className="my-2">
@@ -70,6 +85,11 @@ function Portfolio() {
             <h4 style={{ marginLeft: '15px', color: 'white' }}>Budget Tracker</h4>
           </i>
           <img src={budgetTracker} alt='Budget Tracker' />
+        </a>
+        <a style={{ textDecoration: 'none' }} href='https://thawing-dusk-86360.herokuapp.com/' target="_blank" rel="noreferrer noopener">
+          <i className='fab fa-twitter'>
+            <h5 style={{ marginLeft: '15px', color: 'white' }}>Deployed</h5>
+          </i>
         </a>
       </div>
     </section>

@@ -15,6 +15,7 @@ function Portfolio() {
         <a style={{ textDecoration: 'none' }} href='https://github.com/Erock42/FlavoredText' target="_blank" rel="noreferrer noopener">
           <i className='fab fa-twitter'>
             <h4 style={{ marginLeft: '15px', color: 'white' }}>FlavoredText</h4>
+            <h3 style={{ marginLeft: '15px', color: 'white' }}>Deployed: https://fathomless-spire-74558.herokuapp.com/</h3>
           </i>
           <img src={flavoredText} alt='flavoredText' />
         </a>

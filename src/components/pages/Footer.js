@@ -4,35 +4,27 @@ import { Box, Container, Row, Column, FooterLink } from './FooterStyles';
 
 const Footer = () => {
   return (
-    <Box>
-      <Container>
+    <Box className="">
+      <Container class="mt-auto">
         <Row>
           <Column>
             <FooterLink href='https://github.com/kakudiego' target="_blank" rel="noreferrer noopener">
-              <i className=''>
-                <span style={{ marginLeft: '10px' }}>GitHub</span>
-              </i>
+              <span style={{ marginLeft: '10px' }}>GitHub</span>
             </FooterLink>
           </Column>
           <Column>
             <FooterLink href='https://github.com/kakudiego' target="_blank" rel="noreferrer noopener">
-              <i className=''>
-                <span style={{ marginLeft: '10px' }}>LinkedIn</span>
-              </i>
+              <span style={{ marginLeft: '10px' }}>LinkedIn</span>
             </FooterLink>
           </Column>
           <Column>
             <FooterLink href='https://twitter.com/kakudiego' target="_blank" rel="noreferrer noopener">
-              <i className=''>
-                <span style={{ marginLeft: '10px' }}>Twitter</span>
-              </i>
+              <span style={{ marginLeft: '10px' }}>Twitter</span>
             </FooterLink>
           </Column>
           {/* <Column>
             <FooterLink href='https://www.instagram.com/kakudiego' target="_blank" rel="noreferrer noopener">
-              <i className=''>
                 <span style={{ marginLeft: '10px' }}>Instagram</span>
-              </i>
             </FooterLink>
           </Column> */}
         </Row>

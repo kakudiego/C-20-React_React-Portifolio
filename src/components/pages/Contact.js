@@ -7,10 +7,11 @@ function Contact() {
   return (
     <section className="my-5">
       <div className="my-2">
+        <h4 style={{ textAlign: '', color: 'white' }}>Email:</h4>
         <a style={{ textDecoration: 'none' }} href='mailto:diegokaku@gmail.com' target="_blank" rel="noreferrer noopener">
-          <i className='fab fa-twitter'>
-            <h4 style={{ textAlign: '', color: 'white' }}>Email: diegokaku@gmail.com</h4>
-          </i>
+          <button type="button" class="btn btn-secondary" style={{ color: 'yellow' }}>
+            diegokaku@gmail.com
+          </button>
         </a>
       </div>
     </section>

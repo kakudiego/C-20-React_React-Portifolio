@@ -6,7 +6,7 @@ function Home() {
     <section style={{ display: 'flex', flexWrap: 'wrap', padding: '10px' }}>
       <div className="my-2">
         <h1 id="about">About Me:</h1>
-        <img style={{ width: '20%', margin: '10px' }} src={photo} alt="profile shot" />
+        <img className="foto" src={photo} alt="profile shot" />
         <h5>
           Hi, my name is Diego Kaku, and I am a Full Stack Web developer with MD and Nurse degree,
         </h5>

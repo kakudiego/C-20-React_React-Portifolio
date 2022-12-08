@@ -1,0 +1,15 @@
+.laptop {
+  width: 500px;
+  height: 100px;
+  background: #9674cb;
+  margin: 0 auto;
+}
+
+.laptop p {
+  padding-top: 2%;
+}
+
+.foto {
+  width: 30%;
+  height: auto;
+}

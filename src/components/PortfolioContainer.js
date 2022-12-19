@@ -18,25 +18,25 @@ import { TabletMobile } from "../components/tablet-mobile/tablet-mobile.componen
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
-  const isMobileDevice = useMediaQuery({
-    query: "(min-device-width: 300px)",
-  });
+  // const isMobileDevice = useMediaQuery({
+  //   query: "(min-device-width: 300px)",
+  // });
 
-  const isTabletDevice = useMediaQuery({
-    query: "(min-device-width: 650px)",
-  });
+  // const isTabletDevice = useMediaQuery({
+  //   query: "(min-device-width: 650px)",
+  // });
 
-  const isLaptop = useMediaQuery({
-    query: "(min-device-width: 900px)",
-  });
+  // const isLaptop = useMediaQuery({
+  //   query: "(min-device-width: 900px)",
+  // });
 
-  const isDesktop = useMediaQuery({
-    query: "(min-device-width: 1150px)",
-  });
+  // const isDesktop = useMediaQuery({
+  //   query: "(min-device-width: 1150px)",
+  // });
 
-  const isBigScreen = useMediaQuery({
-    query: "(min-device-width: 1201px )",
-  });
+  // const isBigScreen = useMediaQuery({
+  //   query: "(min-device-width: 1201px )",
+  // });
 
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.

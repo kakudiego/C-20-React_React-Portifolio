@@ -9,7 +9,7 @@ function Contact() {
       <div className="my-2">
         <h4 style={{ textAlign: '', color: 'white' }}>Email:</h4>
         <a style={{ textDecoration: 'none' }} href='mailto:diegokaku@gmail.com' target="_blank" rel="noreferrer noopener">
-          <button type="button" class="btn btn-secondary" style={{ color: 'yellow' }}>
+          <button type="button" className="btn btn-secondary" style={{ color: 'yellow' }}>
             diegokaku@gmail.com
           </button>
         </a>

@@ -22,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
               className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
             >
-              <button type="button" class="btn btn-secondary" style={{ color: 'yellow' }}>
+              <button type="button" className="btn btn-secondary" style={{ color: 'yellow' }}>
                 Home
               </button>
             </h3>
@@ -35,7 +35,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
               className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
             >
-              <button type="button" class="btn btn-secondary" style={{ color: 'yellow' }}>
+              <button type="button" className="btn btn-secondary" style={{ color: 'yellow' }}>
                 Portfolio
               </button>
             </h3>
@@ -48,7 +48,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
               className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
             >
-              <button type="button" class="btn btn-secondary" style={{ color: 'yellow' }}>
+              <button type="button" className="btn btn-secondary" style={{ color: 'yellow' }}>
                 Contact
               </button>
             </h3>
@@ -61,7 +61,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
               className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
             >
-              <button type="button" class="btn btn-secondary" style={{ color: 'yellow' }}>
+              <button type="button" className="btn btn-secondary" style={{ color: 'yellow' }}>
                 Resume
               </button>
             </h3>

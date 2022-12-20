@@ -16,7 +16,7 @@ function Portfolio() {
           <p className='fab fa-twitter'>
             <h4 style={{ marginLeft: '15px', color: 'white' }}>FlavoredText</h4>
             <p style={{ marginLeft: '15px', color: 'white' }}>Your next go-to recipe blog! Create an account, find, save, comment and share new recipes.</p>
-            <a style={{ textDecoration: 'none', color: 'yellow' }} href='https://fathomless-spire-74558.herokuapp.com' target="_blank" rel="noreferrer noopener" >
+            <a style={{ textDecoration: 'none', color: 'yellow', paddingLeft: '10px' }} href='https://fathomless-spire-74558.herokuapp.com' target="_blank" rel="noreferrer noopener" >
               <button type="button" className="btn btn-secondary" style={{ color: 'yellow' }}>
                 Deployed - JavaScript + HTML + CSS
               </button>
@@ -30,7 +30,7 @@ function Portfolio() {
           <p className='fab fa-twitter'>
             <h4 style={{ marginLeft: '15px', color: 'white' }}>Password Generator</h4>
             <p style={{ marginLeft: '15px', color: 'white' }}>Password Generator with prompt for criteria.</p>
-            <a style={{ textDecoration: 'none' }} href='https://kakudiego.github.io/C-3-JavaScript_Basic-Password-Generator/' target="_blank" rel="noreferrer noopener">
+            <a style={{ textDecoration: 'none', paddingLeft: '10px' }} href='https://kakudiego.github.io/C-3-JavaScript_Basic-Password-Generator/' target="_blank" rel="noreferrer noopener">
               <button type="button" className="btn btn-secondary" style={{ color: 'yellow' }}>
                 Deployed - React + JavaScript + HTML + CSS
               </button>
@@ -44,7 +44,7 @@ function Portfolio() {
           <p className='fab fa-twitter'>
             <h4 style={{ marginLeft: '15px', color: 'white' }}>Work Day Scheduler</h4>
             <p style={{ marginLeft: '15px', color: 'white' }}>A simple calendar app for scheduling your work day.</p>
-            <a style={{ textDecoration: 'none' }} href='https://kakudiego.github.io/C-5-Third-Party-APIs_Work-Day-Scheduler/' target="_blank" rel="noreferrer noopener">
+            <a style={{ textDecoration: 'none', paddingLeft: '10px' }} href='https://kakudiego.github.io/C-5-Third-Party-APIs_Work-Day-Scheduler/' target="_blank" rel="noreferrer noopener">
               <button type="button" className="btn btn-secondary" style={{ color: 'yellow' }}>
                 Deployed - JavaScript + HTML + CSS
               </button>
@@ -58,7 +58,7 @@ function Portfolio() {
           <p className='fab fa-twitter'>
             <h4 style={{ marginLeft: '15px', color: 'white' }}>Weather-Dashboard</h4>
             <p style={{ marginLeft: '15px', color: 'white' }}>Minimal Weather App using OpenWeather One Call API to retrieve weather data.</p>
-            <a style={{ textDecoration: 'none' }} href='https://kakudiego.github.io/C-6-Server-Side-APIs_Weather-Dashboard/' target="_blank" rel="noreferrer noopener">
+            <a style={{ textDecoration: 'none', paddingLeft: '10px' }} href='https://kakudiego.github.io/C-6-Server-Side-APIs_Weather-Dashboard/' target="_blank" rel="noreferrer noopener">
               <button type="button" className="btn btn-secondary" style={{ color: 'yellow' }}>
                 Deployed - JavaScript + HTML + CSS
               </button>
@@ -73,7 +73,7 @@ function Portfolio() {
             <h4 style={{ marginLeft: '15px', color: 'white' }}>Note-Taker</h4>
             <p style={{ marginLeft: '15px', color: 'white' }}>Note Taker that can be used to write and save notes.
             </p>
-            <a style={{ textDecoration: 'none' }} href='https://boiling-crag-36276.herokuapp.com/' target="_blank" rel="noreferrer noopener">
+            <a style={{ textDecoration: 'none', paddingLeft: '10px' }} href='https://boiling-crag-36276.herokuapp.com/' target="_blank" rel="noreferrer noopener">
               <button type="button" className="btn btn-secondary" style={{ color: 'yellow' }}>
                 Deployed - JavaScript + HTML + CSS
               </button>
@@ -87,7 +87,7 @@ function Portfolio() {
           <p className='fab fa-twitter'>
             <h4 style={{ marginLeft: '15px', color: 'white' }}>Budget Tracker</h4>
             <p style={{ marginLeft: '15px', color: 'white' }}>Track your budget online and offline.</p>
-            <p style={{ textDecoration: 'none' }} href='https://thawing-dusk-86360.herokuapp.com/' target="_blank" rel="noreferrer noopener">
+            <p style={{ textDecoration: 'none', paddingLeft: '10px' }} href='https://thawing-dusk-86360.herokuapp.com/' target="_blank" rel="noreferrer noopener">
               <button type="button" className="btn btn-secondary" style={{ color: 'yellow' }}>
                 Deployed - JavaScript + HTML + CSS
               </button>
@@ -101,7 +101,7 @@ function Portfolio() {
           <p className='fab fa-twitter'>
             <h4 style={{ marginLeft: '15px', color: 'white' }}>README-Generator</h4>
             <p style={{ marginLeft: '15px', color: 'white' }}>Simple and quick command-line application created to generate a README.md file.</p>
-            <a style={{ textDecoration: 'none' }} href='https://github.com/kakudiego/C-9-Node.js_Professional-README-Generator' target="_blank" rel="noreferrer noopener">
+            <a style={{ textDecoration: 'none', paddingLeft: '10px' }} href='https://github.com/kakudiego/C-9-Node.js_Professional-README-Generator' target="_blank" rel="noreferrer noopener">
               <button type="button" className="btn btn-secondary" style={{ color: 'yellow' }}>
                 GitHub - JavaScript
               </button>

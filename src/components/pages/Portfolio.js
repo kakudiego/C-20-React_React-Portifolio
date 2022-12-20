@@ -10,7 +10,7 @@ import flavoredText from '../../images/FlavoredText.png';
 
 function Portfolio() {
   return (
-    <section className="my-5" style={{ display: 'flex', flexFlow: 'wrap', justifyContent: 'space-evenly' }}>
+    <section className="my-5" style={{ display: 'flex', flexFlow: 'wrap', justifyContent: 'center' }}>
       <div className="my-2">
         <a style={{ textDecoration: 'none' }} href='https://github.com/Erock42/FlavoredText' target="_blank" rel="noreferrer noopener">
           <p className='fab fa-twitter'>

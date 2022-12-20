@@ -5,7 +5,7 @@ import React from 'react';
 
 function Contact() {
   return (
-    <section className="my-5">
+    <section className="my-5" style={{ display: 'flex', justifyContent: 'center' }}>
       <div className="my-2">
         <h4 style={{ textAlign: '', color: 'white' }}>Email:</h4>
         <a style={{ textDecoration: 'none' }} href='mailto:diegokaku@gmail.com' target="_blank" rel="noreferrer noopener">

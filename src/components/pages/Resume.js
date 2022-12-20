@@ -1,10 +1,8 @@
 import React from 'react';
-// import resume from '../../images/resume.png';
 
 function Resume() {
   return (
-    <section className="my-5">
-      {/* <img style={{ display: 'block', width: '80%', margin: 'auto' }} src={resume} alt="resume" /> */}
+    <section className="my-5" style={{ display: 'flex', justifyContent: 'center' }}>
       <div className="my-2">
         <a style={{ textDecoration: 'none' }} href='https://drive.google.com/file/d/1JRYyXz-csOUYWaIoezRz65ve8WWdUJ01/view?usp=sharing' target="_blank" rel="noreferrer noopener">
           <button type="button" className="btn btn-secondary" style={{ color: 'yellow' }}>
